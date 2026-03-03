@@ -21,7 +21,8 @@ const switchPlayer = () => {
   document.getElementById(`current--${activePlayer}`).textContent = currentScore
 
   activePlayer = activePlayer === 0 ? 1 : 0
-
+  console.log("salom");
+  
   document.querySelector('.player--0').classList.toggle('player--active')
   document.querySelector('.player--1').classList.toggle('player--active')
 }
